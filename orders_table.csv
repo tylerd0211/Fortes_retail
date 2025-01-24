@@ -1,0 +1,21 @@
+OrderID,CustomerID,OrderDate,ShipDate,OrderAmount,OrderStatus,PaymentMethod,ShippingAddress,ProductID,Quantity
+1,46,2024-03-15,2024-03-16,828.59,Shipped,Bank Transfer,"163 Pine Rd, Los Angeles",3,6
+2,74,2023-01-13,2023-01-15,140.48,Delivered,Bank Transfer,"251 Oak Dr, Los Angeles",25,2
+3,50,2025-01-15,2025-01-17,173.14,Shipped,Bank Transfer,"949 Oak Dr, Los Angeles",27,10
+4,69,2023-01-07,2023-01-12,230.67,Cancelled,Bank Transfer,"201 Elm St, Phoenix",31,8
+5,74,2023-03-22,2023-03-25,172.23,Delivered,Bank Transfer,"484 Pine Rd, Houston",29,8
+6,60,2024-02-25,2024-03-01,896.22,Shipped,Credit Card,"951 Elm St, Los Angeles",4,4
+7,90,2023-01-17,2023-01-24,66.24,Pending,PayPal,"942 Pine Rd, New York",31,4
+8,28,2025-03-09,2025-03-18,676.59,Delivered,PayPal,"506 Oak Dr, Chicago",36,6
+9,14,2024-01-11,2024-01-18,400.3,Delivered,Credit Card,"932 Main St, New York",34,4
+10,36,2024-03-03,2024-03-08,624.35,Cancelled,Bank Transfer,"659 Maple Ave, New York",6,9
+11,81,2025-02-08,2025-02-13,244.71,Shipped,PayPal,"307 Pine Rd, New York",5,3
+12,97,2024-02-12,2024-02-13,39.65,Shipped,Credit Card,"428 Pine Rd, Phoenix",23,4
+13,40,2023-02-04,2023-02-08,560.43,Cancelled,PayPal,"990 Pine Rd, Houston",27,5
+14,12,2024-03-24,2024-03-31,856.09,Pending,PayPal,"108 Main St, Los Angeles",40,9
+15,90,2025-02-15,2025-02-20,713.51,Cancelled,PayPal,"669 Pine Rd, Los Angeles",6,2
+16,74,2023-02-04,2023-02-09,94.72,Shipped,Credit Card,"259 Oak Dr, Los Angeles",27,10
+17,66,2023-02-26,2023-03-02,292.56,Pending,Credit Card,"114 Oak Dr, Houston",5,5
+18,48,2024-01-07,2024-01-09,698.33,Pending,Bank Transfer,"373 Main St, New York",12,2
+19,42,2024-02-28,2024-03-01,340.15,Pending,PayPal,"776 Maple Ave, Houston",34,3
+20,8,2023-01-25,2023-02-03,715.09,Cancelled,Credit Card,"908 Oak Dr, Los Angeles",26,8
