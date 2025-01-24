@@ -13,12 +13,13 @@ connection = pymysql.connect(
 # SQL Query to fetch data for store 1 and January 2023
 query = """
 SELECT 
-    OrderID, CustomerID, OrderDate, ShipDate, OrderAmount, 
-    OrderStatus, PaymentMethod, ShippingAddress
+    *
 FROM 
     Orders
 WHERE 
-    OrderDate >= '2023-01-01' AND OrderDate <= '2023-01-31';
+    (OrderDate >= '2023-01-01' AND OrderDate <= '2023-01-31')
+    AND 
+    (storeID = 's1');
 """
 
 # Execute query and load data into a DataFrame
@@ -31,12 +32,9 @@ with connection.cursor() as cursor:
 # Close the database connection
 connection.close()
 
-# Filter data for store 1 (assuming store-related information is in ShippingAddress or another column)
-df_store1 = df[df['ShippingAddress'].str.contains('s1', case=False, na=False)]
-
 # Save DataFrame to CSV
 output_file = 'jan2023_s1.csv'
-df_store1.to_csv(output_file, index=False)
+df.to_csv(output_file, index=False)
 
 # S3 upload
 bucket_name = 's1-ontario-ca-central-1'
